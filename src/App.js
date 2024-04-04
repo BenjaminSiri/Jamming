@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+
 import styles from "./styles/app.module.css";
 
+
 function App() {
+  const [searchText, setSearchText] = useState('');
+
+
   return (
     <div className={styles.app}>
-      <h1>Hello World</h1>
+      <Header />
+      <SearchBar changeText={setSearchText} />
     </div>
   );
 }

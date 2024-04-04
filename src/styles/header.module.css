@@ -1,0 +1,13 @@
+.header {
+    background-color: rgb(92, 34, 103);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.header :hover {
+    cursor: default;
+}
