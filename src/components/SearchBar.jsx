@@ -1,5 +1,7 @@
 import React from 'react';
 
+import cardsJSON from '../examples.json';
+
 import styles from '../styles/searchBar.module.css';
 
 function SearchBar(props) {
@@ -10,12 +12,15 @@ function SearchBar(props) {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert('Search submitted');
+        if(props.text !== '') {
+            alert(`Search: ${props.text}`);
+            props.setResults(JSON.parse(JSON.stringify(cardsJSON)).cards);
+        }
     }
 
     return (
-        <div>
-            <form className={styles.searchForm} onSubmit={handleSubmit} >
+        <div className={styles.searchForm}>
+            <form onSubmit={handleSubmit} >
                 <input className={styles.searchBox} placeholder="Enter A Song, Album, or Artist" onChange={handleChange} />
                 <button className={styles.searchButton}>SEARCH</button>
             </form>

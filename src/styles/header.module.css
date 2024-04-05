@@ -11,3 +11,25 @@
 .header :hover {
     cursor: default;
 }
+
+.login {
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    height: 50px;
+    width: 75px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkslategray;
+    color: white;
+}
+
+.login:hover {
+    background-color: rgb(77, 100, 100);
+    color: white;
+}
+
+.login:active {
+    background-color: white;
+    color: black;
+}
