@@ -1,2 +1,2 @@
-const clientId = '';
+const clientId = 'a';
 const clientSecret = '';

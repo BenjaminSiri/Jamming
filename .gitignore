@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # credentials
-cred.js
+src/cred.js
