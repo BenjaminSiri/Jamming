@@ -29,6 +29,7 @@
 .searchButton {
     height: 50px;
     width: 7vw;
+    min-width: 100px;
     border-radius: 10px;
     border: none;
     background-color: darkslategray;

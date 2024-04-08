@@ -10,6 +10,12 @@
     overflow: scroll;
 }
 
+@media screen and (max-width: 600px) {
+    .playlist {
+        width: 90vw;
+    }
+}
+
 
 .playlistTracks {
     width: 100%;

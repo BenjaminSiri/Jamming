@@ -18,3 +18,9 @@
     width: 100%;
     overflow: scroll;
 }
+
+@media screen and (max-width: 600px) {
+    .trackList {
+        width: 90vw;
+    }
+}

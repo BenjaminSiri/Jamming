@@ -33,3 +33,26 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    .header {
+        background-color: rgb(92, 34, 103);
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        border-bottom: 2px solid black;
+    }
+
+    .login {
+        position: relative;
+        height: 50px;
+        width: 75px;
+        border-radius: 10px;
+        border: none;
+        background-color: darkslategray;
+        color: white;
+    }
+}
