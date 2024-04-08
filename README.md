@@ -1,3 +1,10 @@
+# Jamming: a website for creating Spotify playlists
+
+This project makes use of the React front-end framework in building a static
+website. The user can login to their own Spotify acount via the Spotify API
+OAuth flow. The user can then search for songs, add those songs to a playlist,
+name the playlist, and finally save the playlist to their Spotify account.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
