@@ -13,8 +13,7 @@ function SearchBar(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         if(props.text !== '') {
-            alert(`Search: ${props.text}`);
-            props.setResults(JSON.parse(JSON.stringify(cardsJSON)).cards);
+            props.search(props.text);
         }
     }
 

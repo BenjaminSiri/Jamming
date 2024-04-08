@@ -18,11 +18,11 @@ function PlaylistCard(props) {
             <div className={styles.information}>
                 <h2>{props.songTitle}</h2>
                 <div className={styles.description}>
-                    <h4>{props.songArtist}</h4>
-                    <h4>{props.songAlbum}</h4>
+                    <h5>{props.songArtist}</h5>
+                    <h5>{props.songAlbum}</h5>
                 </div> 
             </div>
-            <button onClick={onClick} className={styles.playlistCardButton}>X</button>
+            <button onClick={onClick} className={styles.playlistCardButton}>x</button>
         </div>
     )
 }
