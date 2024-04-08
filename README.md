@@ -4,6 +4,7 @@ This project makes use of the React front-end framework in building a static
 website. The user can login to their own Spotify acount via the Spotify API
 OAuth flow. The user can then search for songs, add those songs to a playlist,
 name the playlist, and finally save the playlist to their Spotify account.
+![Uploading Screenshot 2024-04-08 at 3.41.00 PM.png…]()
 
 # Getting Started with Create React App
 
