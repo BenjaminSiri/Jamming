@@ -1,7 +1,5 @@
 import React from 'react';
 
-import cardsJSON from '../examples.json';
-
 import styles from '../styles/searchBar.module.css';
 
 function SearchBar(props) {

@@ -2,7 +2,7 @@ import credsJSON from "../cred.json";
 
 let accessToken = "";
 const clientID = credsJSON.clientId;
-const redirectURI = "http://localhost:3000/callback";
+const redirectURI = "http://10.168.201.32:3000/callback";
 
 const Spotify = {
     

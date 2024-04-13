@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
@@ -6,8 +6,6 @@ import TrackList from "./components/TrackList";
 import Playlist from "./components/Playlist";
 
 import Spotify from "./util/Spotify";
-
-import credsJSON from "./cred.json";
 
 import styles from "./styles/app.module.css";
 
