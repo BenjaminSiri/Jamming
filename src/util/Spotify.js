@@ -2,7 +2,7 @@ import credsJSON from "../cred.json";
 
 let accessToken = "";
 const clientID = credsJSON.clientId;
-const redirectURI = "https://neon-daifuku-128861.netlify.app/callback";
+const redirectURI = "https://neon-daifuku-128861.netlify.app";
 
 const Spotify = {
     
