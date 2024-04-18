@@ -6,7 +6,6 @@ OAuth flow. The user can then search for songs, add those songs to a playlist,
 name the playlist, and finally save the playlist to their Spotify account.
 <img width="1512" alt="Screenshot 2024-04-08 at 3 41 00 PM" src="https://github.com/BenjaminSiri/Jamming/assets/50188950/12e24cac-f070-495a-907a-f7dad6231054">
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -77,3 +76,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![React-icon svg](https://github.com/BenjaminSiri/Jamming/assets/50188950/6bf72d20-702f-4c38-bcf1-e76a85517dd9)
