@@ -2,8 +2,6 @@
 let accessToken = "";
 const redirectURI = "https://neon-daifuku-128861.netlify.app";
 
-console.log(process.env.REACT_APP_CLIENT_ID);
-
 const Spotify = {
     
     getAccessToken() {
