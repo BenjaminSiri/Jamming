@@ -1,8 +1,8 @@
-import credsJSON from "../cred.json";
-
+//import env from 'react-dotenv';
 let accessToken = "";
-const clientID = credsJSON.clientId;
 const redirectURI = "https://neon-daifuku-128861.netlify.app";
+
+console.log(process.env.REACT_APP_CLIENT_ID);
 
 const Spotify = {
     
@@ -19,7 +19,7 @@ const Spotify = {
             window.history.pushState('Access Token', null, '/');
             return accessToken;
         } else {
-            const auth = `https://accounts.spotify.com/authorize?client_id=${clientID}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectURI}`
+            const auth = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_CLIENT_ID}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectURI}`
             window.location = auth;
         }
     },
